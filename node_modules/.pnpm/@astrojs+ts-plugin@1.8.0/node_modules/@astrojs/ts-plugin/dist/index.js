@@ -1,0 +1,4 @@
+"use strict";
+const createLanguageServicePlugin_js_1 = require("@volar/typescript/lib/quickstart/createLanguageServicePlugin.js");
+const language_js_1 = require("./language.js");
+module.exports = (0, createLanguageServicePlugin_js_1.createLanguageServicePlugin)(() => [(0, language_js_1.getLanguageModule)()]);
